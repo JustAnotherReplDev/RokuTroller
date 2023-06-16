@@ -1,23 +1,23 @@
 """
-This is the main file, duh, This is where you can find the all in one, super cool and furiously fast, Roku Troller!
+This is the main file, duh. This is where you can find the all-in-one, super cool, and furiously fast Roku Troller!
 Yay!!!
 Ok, allow me to explain how this works.
 
-This is a program that makes (all/mostly/maybe just one) device(s) that are accessible by the python-roku module do anything you make it do!
+This is a program that makes (all/mostly/maybe just one) device(s) that are accessible by the python-roku module do anything you make them do!
 
 Let's start with the imports and what they do:
 
-Roku - allows python to interface with roku.
+Roku - allows python to interface with Roku.
 Re - allows you to search through all the junk that comes from the Roku.discover() method.
-time - Kind of pointless unless you add threading - I was planning on doing that but got kinda lazy.
+time - Kind of pointless unless you add threading. I was planning on doing that but got kind of lazy.
 ------------------------------------------------
-Let's talk about the functions because I do not feel like properly documenting code:
+Let's talk about the functions because I do not feel like properly documenting the code:
 
-get_roku_devices - attempts to grab all Roku Devices on your local network and appends them to a list.
-begin_session - goes through one device and a time and does the desired action, current action will make the roku device scroll up for a little.
+get_roku_devices - attempts to grab all Roku devices on your local network and appends them to a list.
+begin_session - goes through one device at a time and does the desired action, current action will make the Roku device scroll up a little.
 ------------------------------------------------
-Exciting! ok, how about you edit the begin_session() function; make sure to edit only what's below the comment!
-To find out what methods you can use to interface with the roku devices, go to the very bottom and comment out the two functions and replace it with print(roku.commands)
+Exciting! Ok, how about you edit the begin_session() function? Make sure to edit only what's below the comment!
+To find out what methods you can use to interface with the Roku devices, go to the very bottom and comment out the two functions and replace them with print(roku.commands)
 
 """
 
